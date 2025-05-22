@@ -1,0 +1,120 @@
+.example-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-guardar{
+    display: grid;
+    justify-items: end;
+    padding: 0px 30px 20px 0px;
+    background: red;
+    color: white;
+}
+
+  .bill-holder {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .bill-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bill-name {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .amounts-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .amount-item {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .amount-type {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .amount-value {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .value {
+    font-weight: bold;
+  }
+  
+  .currency {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    // height: 100vh; /* Opcional, para centrar en toda la pantalla */
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.styled-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Espacio entre texto e icono */
+    padding: 10px 20px; /* Ajusta el tamaño del botón */
+    // font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.styled-button mat-icon {
+    font-size: 20px;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between; /* Espacio entre ambos formularios */
+  gap: 1rem; /* Espaciado entre los formularios */
+}
+
+.form-container {
+  flex: 1; /* Ocupa el mismo tamaño */
+  // max-width: 50%; /* Limita el ancho máximo al 50% */
+}
+
+.border {
+  padding: 1rem;
+  box-sizing: border-box; /* Incluye padding y borde en el cálculo del ancho */
+}
+
+::ng-deep .mat-tab-header {
+  background-color: #1d1d1d8c !important;
+  border-radius: 8px !important;
+}
+
+// habilitar el color de las letras cuando están deshabilitadas
+::ng-deep .mat-tab-label{
+  opacity: 1 !important ;
+}
